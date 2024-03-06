@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deleteEmptyFolders", "deleteEmptyFolders\deleteEmptyFolders.csproj", "{B7BA5CA7-00B1-4B13-A2B9-4224A20A5439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7BA5CA7-00B1-4B13-A2B9-4224A20A5439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BA5CA7-00B1-4B13-A2B9-4224A20A5439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BA5CA7-00B1-4B13-A2B9-4224A20A5439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BA5CA7-00B1-4B13-A2B9-4224A20A5439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F561BA-090B-46A3-8326-BF19E3D786D6}
+	EndGlobalSection
+EndGlobal
