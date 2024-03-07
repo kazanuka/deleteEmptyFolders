@@ -12,15 +12,17 @@ namespace deleteEmptyFolders
             removeDirectory(textBox1.Text);
         }
 
-        private static void removeDirectory(string start)//function for directory removal
+        private static void removeDirectory(string start)
         {
             foreach (string directory in Directory.GetDirectories(start))//listing subdirectories in main directory using a foreach loop
             {
-                if (Directory.GetFiles(directory).Length == 0 &&
-                    Directory.GetDirectories(directory).Length == 0)
+                removeDirectory(directory);//check all subdirectories recursively
+
+                if (Directory.GetFiles(directory).Length == 0 && Directory.GetDirectories(directory).Length == 0)
                 {
                     Directory.Delete(directory, false);//if subdirectory is empty, remove it
                 }
+                
             }
         }
 
